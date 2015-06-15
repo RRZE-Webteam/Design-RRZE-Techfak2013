@@ -27,10 +27,12 @@ global $defaultoptions;
 
 			    <?php if (!is_home()) { ?>
     				<a href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home" class="logo">
-				    <?php } ?>
+				    <?php }
 
-				    <img border="0" src="<?php print (!empty($options['logo']) ? esc_url($options['logo']) : esc_url($defaultoptions['logo'])); ?>" alt="Logo">
-
+				    if (!empty($options['logo']) || !isset($options['logo'])) {
+						?>
+						<img border="0" src="<?php print (!empty($options['logo']) ? esc_url($options['logo']) : esc_url($defaultoptions['logo'])); ?>" alt="Logo">
+					<?php } ?>
 					<div class="site-name" style="color:#<?php echo esc_attr(get_header_textcolor()); ?>">
 						<?php bloginfo('name'); ?>
 						<span class="description"><?php echo html_entity_decode(get_bloginfo('description')); ?></span>

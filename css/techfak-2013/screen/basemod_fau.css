@@ -30,6 +30,8 @@
       background-color: transparent;
       max-height: 125px;
       padding: 5px 15px 5px 0; }
+    div#kopf div#logo .site-name {
+      float: left; }
     div#kopf div#logo p {
       width: auto;
       padding-top: 30px; }
