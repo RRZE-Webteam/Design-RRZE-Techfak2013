@@ -1,10 +1,19 @@
-/*
-    Document   : basemod_socialmediaicons
-    Created on : 05.08.2013, 14:28:03
-    Author     : unrz59
-    Description:
-        Purpose of the stylesheet follows.
-*/
+@charset "UTF-8";
+/**
+ * Projekt Vorlagenkatalog
+ *
+ * Basisstylesheet Techfak 2013
+ *
+ * @mod_name        socialmediaicons
+ * @mod_desc        Styles für Social-Media-Icons
+ *
+ * @copyright       Copyright 2005-2012, RRZE
+ * @license         CC-A 2.0 (http://creativecommons.org/licenses/by/2.0/)
+ * @link            http://www.vorlagen.uni-erlangen.de
+ * @package         css
+ * @version         1.1
+ * @lastmodified    06/2015
+ */
 /* Social Media Icons     ---------------------------------------------------*/
 .socialmedia_iconbar {
   width: 100%;

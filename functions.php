@@ -4,7 +4,7 @@
  *
  * @source http://github.com/RRZE-Webteam/Design-RRZE-Techfak2013
  * @creator xwolf
- * @version 1.0
+ * @version 1.1
  * @licence GPL
  */
 require( get_template_directory() . '/inc/constants.php' );
