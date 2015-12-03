@@ -176,9 +176,12 @@
   div#content table h3 {
     margin-top: 11px; }
   div#content table td {
-    padding: 2px 4px; }
+    padding: 2px 4px;
+    border-right: none;
+    border-bottom: none;
+    border-top: none; }
   div#content table tr td:first-child {
-    border-left: 1px solid #023465; }
+    border-left: none; }
   div#content .attachment-person-thumb-bigger {
     max-width: 120px;
     height: auto; }
@@ -211,4 +214,4 @@
     background-image: url(../../../grafiken/techfak-2013/balken-komplett-iss.gif); } }
 @media screen and (max-width: 528px) {
   div#logo .site-name {
-    color: #023465; } }
+    color: #023465 !important; } }
