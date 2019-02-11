@@ -14,12 +14,12 @@
 		        	<h2 class="skip"><a name="hilfemarke" id="hilfemarke">Technisches Menu</a></h2>
 					<div class="menu-tecmenue-container">
 						<ul id="menu-tecmenue" class="menu">
-						<li><a href="http://blogs.fau.de/">Blogs@FAU</a></li>
-						<li><a href="http://www.portal.uni-erlangen.de/forums/viewforum/94">Forum</a></li>
-						<li><a href="http://blogs.fau.de/hilfe/">Hilfe</a></li>
+						<li><a href="https://blogs.fau.de/">Blogs@FAU</a></li>
+						<li><a href="https://blogs.fau.de/hilfe/">Hilfe</a></li>
 						<li><a href="<?php bloginfo('url'); ?>/kontakt/">Kontakt</a></li>
-						<li><a href="http://blogs.fau.de/impressum/">Impressum</a></li>
-						<li><a href="http://blogs.fau.de/nutzungsbedingungen/">Nutzungsbedingungen</a></li>
+						<li><a href="https://blogs.fau.de/impressum/">Impressum</a></li>
+                                                <li><a href="https://blogs.fau.de/datenschutz/">Datenschutz</a></li>
+						<li><a href="https://blogs.fau.de/nutzungsbedingungen/">Nutzungsbedingungen</a></li>
 						</ul>
 					</div>
 	        	</div>  <!-- end: tecmenu -->
