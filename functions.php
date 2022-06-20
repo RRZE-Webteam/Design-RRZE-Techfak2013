@@ -82,7 +82,7 @@ if (!function_exists('tf2013_setup')):
 
 		if ($options['login_errors'] == 0) {
 			/** Abschalten von Fehlermeldungen auf der Loginseite */
-			add_filter('login_errors', create_function('$a', "return null;"));
+            add_filter('login_errors', function($a) { return null; });
 		}
 		/** Entfernen der Wordpressversionsnr im Header */
 		remove_action('wp_head', 'wp_generator');
