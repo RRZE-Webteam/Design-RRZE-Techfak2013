@@ -138,7 +138,7 @@ class FAULinkliste_Widget extends WP_Widget {
 	 * @param array $instance Previously saved values from database.
 	 */
 	public function form( $instance ) {
-		
+		global $defaultoptions;
                 if ( isset( $instance[ 'bereich' ] ) ) {
 			$bereich = $instance[ 'bereich' ];
 		} else {
@@ -172,6 +172,4 @@ class FAULinkliste_Widget extends WP_Widget {
 } // class Partei Linkliste Widget
 //
 // register widget
-add_action( 'widgets_init', create_function( '', 'register_widget( "FAULinkliste_Widget" );' ) );
-
-?>
+add_action( 'widgets_init', function() { register_widget( "FAULinkliste_Widget" ); } );
